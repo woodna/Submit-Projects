@@ -1,0 +1,54 @@
+/* Name:Nate Wood
+Date Created: 12/3/19
+Most Recent Revision: 12/3/19 */
+
+header, footer {
+  background-color: darkblue;
+  color: lightgrey;
+  text-align: center;
+  padding: 15px 0px 15px 0px;
+  margin: 0px 50px 0px 50px;
+}
+
+header h1 {
+  font-family: 'Solway', serif;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: purple;
+}
+
+nav {
+  border-top: thin #5b7d87 solid;
+  border-bottom: thin #5b7d87 solid;;
+}
+
+nav .nav-item:hover{
+  background-color: #5b7d87;
+  color:#fef9ff;
+}
+
+nav .nav-item:active {
+  font-weight: bold;
+  text-decoration: underline
+}
+
+#home {
+  font-size: 2em;
+}
+
+.carousel-indicators li {
+  background-color: lightgrey;
+}
+
+.carousel-indicators .active {
+  background-color: black;
+}
+
+.has-error {
+  color: red;
+}

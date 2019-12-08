@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!--
+  Name: Nate Wood
+  Date Created: 12/3/19
+  Most recent revision: 12/7/19
+-->
+<html lang="en">
+  <head>
+    <title>Classic Menu</title>
+
+    <!-- Imports -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Solway&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/font/octicons.css" rel="stylesheet">
+
+    <style>
+      table {
+        text-align:center;
+        max-width: 80%;
+        margin: auto;
+        background-color: lightblue;
+        border: 7px solid darkblue;
+      }
+      th {
+        font-size: 1.5em;
+        border-bottom: 3px solid blue;
+      }
+      td {
+        border-bottom: 1px dashed blue;
+      }
+      .drinks td {
+        width: 60%;
+        padding: 10px 25px 10px 25px;
+        border-right: 1px dashed blue;
+      }
+      .drinks td:nth-child(2n+1){
+        font-weight: bold;
+      }
+      .drinks td:nth-child(2n){
+        border-right: 7px solid darkblue;
+      }
+      h3 {
+        text-align: center;
+      }
+      .col-lg-4 {
+        text-align: center;
+        margin: 10px auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <noscript><h1 style="text-align: center; background-color: #39ff14">This website is viewed best with JavaScript enabled</h1></noscript>
+
+      <header>
+        <h1>Classic Cuisine</h1>
+        <!-- Imports -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css">
+      </header> <br />
+
+      <!-- Navigation -->
+      <nav class="navbar nav-pills nav-fill">
+        <a href="home.html" class="nav-item nav-link octicon octicon-home" id="home"></a>
+        <a href="menu.html" class="nav-item nav-link">Menu</a>
+        <a href="contact.html" class="nav-item nav-link">Contact</a>
+      </nav><br />
+
+      <!-- Menu -->
+      <div class="food">
+        <h3>Food</h3>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm">
+            <span><strong>Burger and Fries</strong><br />
+              An American Classic!<br />
+              Your choice - with or without cheese, pickle, onion, tomato, and lettuce. Servied with our famous thick cut french fries.<br />
+              $7.95
+            </span>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm">
+            <span><strong>Hot Dog and Chips</strong><br />
+              A Summer Classic<br />
+              Your choice - white or wheat bun. Relish, mustard, and ketchup. Served with our house-made chips.<br />
+              $7.95
+            </span>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <span><strong>Italian Sausage and Peppers</strong><br />
+              An All-Time Favorite!<br />
+              Your choice - mild or spicy Cole Slaw. Served with garlic mashers.<br />
+              $10.95
+            </span>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <span><strong>Tenderloin Sandwich and Chips</strong><br />
+              Really Hits the Spot!<br />
+              Plain or Sasame Seed Bun. Pickle, onion tomato, and lettuce. Served with our house-made chips.<br />
+              $8.95
+            </span>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <span><strong>House Salad</strong><br />
+              On the Lighter Side<br />
+              Your choice - with or without cheese, iceberg lettuce, tomatoes, peppers. Thousand Island or Rance Dressing. Served with a dinner roll.<br />
+              $6.95
+            </span>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <span><strong>Brisket Sandwich and Fries</strong><br />
+              A Taste of Texas!<br />
+              Smoked brisket on thick-cut Texas Toast. Cole Slaw. Served with our famous thick-cut french fries.<br />
+              $7.95
+            </span>
+          </div>
+        </div>
+      <br />
+
+      <!-- Drinks Menu -->
+      <table class="drinks">
+        <tr>
+          <th colspan="3">Drinks</th>
+        </tr>
+        <tr>
+          <td>RootBeer</td>
+          <td>$3.00</td>
+        </tr>
+        <tr>
+          <td>Bottled Water</td>
+          <td>$1.25</td>
+        </tr>
+        <tr>
+          <td>Lemonade</td>
+          <td>$1.00</td>
+        </tr>
+        <tr>
+          <td>Iced Tea</td>
+          <td>$1.25</td>
+        </tr>
+      </table><br /><hr />
+
+      <footer><em>214 South Blvd, Minneapolis, MN, 32839</em><br />
+        212-555-4920
+      </footer>
+
+      <!-- Imports -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </div>
+  </body>
+</html>
